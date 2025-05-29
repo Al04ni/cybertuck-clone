@@ -335,3 +335,59 @@ footer {
     font-size: 0.9rem;
     opacity: 0.6;
 }
+        
+ /* ---- RESPONSIVE DESIGN ----- */
+@media (max-width: 900px) {
+    .nav-center {
+        display: none;
+     }
+            
+    .hero-stats {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+            
+    .specs-grid {
+        grid-template-columns: 1fr;
+    }
+            
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+        
+@media (max-width: 600px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .hero {
+        padding: 100px 20px 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+            
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+            
+    .feature-content {
+        padding: 0 20px;
+    }
+            
+    .specs, .order {
+        padding: 60px 20px;
+    }
+            
+    .order-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+            
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
