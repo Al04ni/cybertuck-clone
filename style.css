@@ -204,3 +204,57 @@ header {
     margin-bottom: 30px;
     line-height: 1.7;
 }
+        
+/* ---- SPECS SECTION ---- */
+.specs {
+    padding: 100px 40px;
+    background-color: #000;
+    text-align: center;
+}
+
+.specs h2 {
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+        
+.specs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+        
+.spec-card {
+    padding: 30px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+}
+        
+.spec-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e92027;
+}
+        
+.spec-card ul {
+    list-style: none;
+    text-align: left;
+}
+        
+.spec-card li {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+        
+.spec-card li span:first-child {
+    opacity: 0.7;
+}
+        
+.spec-card li span:last-child {
+    font-weight: 600;
+}
