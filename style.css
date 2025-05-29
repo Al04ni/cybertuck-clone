@@ -258,3 +258,30 @@ header {
 .spec-card li span:last-child {
     font-weight: 600;
 }
+
+/* ---- ORDER SECTION ---- */
+.order {
+    padding: 100px 40px;
+    background-color: #000;
+    text-align: center;
+}
+
+.order h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+        
+.order p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    opacity: 0.8;
+}
+        
+.order-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
